@@ -1,0 +1,9 @@
+OUTPUT("myprogram")
+INPUT("main.o","func.o")
+
+SECTIONS {
+.text : {}
+.data : {}
+.bss: {}
+}
+
